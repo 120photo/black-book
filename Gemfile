@@ -45,4 +45,7 @@ end
 gem 'faker'
 gem 'figaro'
 gem 'mongoid'
-
+gem 'bootstrap-sass', '~> 3.3.4'
+gem 'slim-rails'
+gem 'slim'
+gem 'jquery-turbolinks'
