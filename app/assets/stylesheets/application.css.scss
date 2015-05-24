@@ -2,3 +2,16 @@
 @import "bootswatch/darkly/variables";
 @import "bootstrap";
 @import "bootswatch/darkly/bootswatch";
+
+.main {
+  background-image: url('../images/main-page.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+}
+
+.main .jumbotron {
+  background-color: transparent;
+  //color: red;
+  text-align: center;
+}
