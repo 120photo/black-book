@@ -35,3 +35,9 @@ html
       = flash[:alert]
 
   = yield
+
+  .footer
+    .row
+      .col-md-4
+        ul.nav.nav-stacked
+          li = link_to "Home", root_path
